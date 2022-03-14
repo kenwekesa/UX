@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+  }
+  nav{
+    background: #ffffff;
+    height: 80px;
+    width: 100%;
+  }
+
+  .below
+  {
+      width: 100;
+      height: 500px;
+      background-color: rgb(16, 5, 58);
+      margin-top: 9px;
+  }
+  label.logo{
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    color: rgb(16, 5, 58);
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+
+  nav ul li:hover{
+    border-bottom: 3px solid coral ;
+  }
+  nav ul li a{
+    color: rgb(8, 7, 7);
+    font-size: 14px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+
+
+  /*-----------------------------------------------------Header------------------------------*/
+
+  .checkbtn{
+    font-size: 30px;
+    color: rgb(50, 4, 122);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+  .shoplist
+  {
+    text-decoration: none;
+    list-style-type: none;
+    margin: auto;
+
+
+/*Center the div elements*/
+display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+    
+  }
+  .shoplist li{
+    display: inline-block;
+    margin: 10px;
+    
+  }
+
+  .gray-section
+  {
+    background-color: #E5E8E8;
+    width: 100%;
+    height: 190px;
+    margin: 3px auto;
+    
+  }
+   .pic-cards
+   {
+     width: 100%;
+     margin-top: -32px;
+     text-align: center;
+
+     /*Center the div elements*/
+     display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+    
+   }
+   .card{
+           width: 350px;
+           height: 350px;
+           background-color: blueviolet;
+           float: left;
+           margin-right: 9px;
+           color:white  ;
+           box-shadow: #2c3e50;
+   }
+
+   .first
+   {
+     background-image: url("images/back1.jpeg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+   }
+   .second
+   {
+     background-image: url("images/back2.jpeg");
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+   .third
+   {
+     background-image: url("images/back3.jpeg");
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+  
+   .description-section
+   {
+     background-color: wheat;
+     width: 100%;
+     height: 300px;
+     margin-top: 19px;
+   }
+   .blue-section
+   {
+     width: 100%;
+     height: 320px;
+     background-color: aqua;
+
+   }
+   .blue-card-section
+   {
+     width: 100%;
+     height: 320px;
+     
+     background-color: white;
+     z-index: 1;
+
+      /*Center the div elements*/
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-left: 45px;
+      padding-right: 25px;
+     /* align-items: center;*/
+   }
+
+.cardi
+{
+  width: 15%;
+  height: 320px;
+  background-color: white;
+           margin-right: 9px;
+           color:white  ;
+           box-shadow: #2c3e50;
+           display: flex;
+           flex-direction: column;
+           
+           margin-top: -52px;
+           border-radius: 8px;
+           margin-right: 25px;
+           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+
+}
+.ourteam-section 
+{
+  height: 600px;
+  box-sizing: border-box;
+  margin-bottom: 2px;
+
+}
+.ourteam-section .row{
+width: 100%;
+height: 250px;
+display: flex;
+margin-bottom: 0;
+      flex-direction: row;
+      justify-content: center;
+}
+
+.ourteam-section .row .column 
+{
+  width: 250px;
+  height: 250px;
+}
+
+.ourteam-section .one 
+{
+  background-color: teal;
+}
+.ourteam-section .two
+{
+  background-color: rgb(65, 28, 60);
+}
+.ourteam-section .three 
+{
+  background-color: rgb(5, 5, 5);
+}
+.ourteam-section .four 
+{
+  background-color: rgb(142, 216, 250);
+}
+.ourteam-section .five 
+{
+  background-color: rgb(53, 10, 247);
+}
+.ourteam-section .six 
+{
+  background-color: rgb(123, 124, 33);
+}
+
+.ourteam-section .seven
+{
+  background-color: rgb(236, 241, 241);
+}
+
+.ourteam-section .eight 
+{
+  background-color: rgb(99, 23, 10);
+}
+
+
+
+
+   .footer-section
+   {
+     width: 100%;
+     height: 400px;
+     bottom: 0;
+     background-color: #345173;
+
+     display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   }
+
+   .footer-upper
+   {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      
+   
+
+   }
+
+   .first-column
+   {
+     margin: 9px;
+     color: white;
+     margin-bottom: 0px;
+   }
+   .footer-col-head {
+     color: yellow;
+     font-size: large;
+    
+
+   }
+
+   .footer-col-subhead {
+    color: rgb(253, 253, 250);
+    font-size: medium;
+   
+  }
+
+  .par-label
+  {
+    color: #9a9c0a;
+  }
+   .footer-lower
+   {
+
+    display: flex;
+    flex-direction: row;
+     width: 80%;
+     justify-content: space-between;
+     color: white;
+    
+     margin: 22px;
+     margin-bottom: 1px;
+     border-top: 0.1px solid rgb(128, 124, 124);
+     padding-top: 9px;
+     padding-bottom: 0%;
+   }
+   
+     .kwanza
+     {
+       border-right: 1px solid rgb(128, 124, 124);
+     }
+     .text-field
+     {
+       background-color: black;
+       color: white;
+       height: 30px;
+       padding: 9px;
+     }
+     .footer-button
+     {
+       background-color: rgb(189, 189, 6);
+       color: white;
+       width: 50px;
+       height: 30px;
+       font-style: bold;
+       border-radius: 14%;
+       border-color: rgb(189, 189, 6);
+       
+     }
+
+     .footer-form
+     {
+       margin: 10px;
+     }
+
+     .footer-social-links span{
+       margin: 3px;
+       font-size: larger;
+     }
+     .rights-part, .footer-social-links
+     {
+       margin-top: 12px;
+       bottom: 0;
+     }
+
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+
+    
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+
+   
+
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+  section{
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  }
+  
